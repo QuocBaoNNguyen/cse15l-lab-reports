@@ -10,8 +10,8 @@ Input/Output:
 [user@sahara ~]$ 
 ```
 
-Working Directory: Home
+**Working Directory:** Home
  <br/>
-The following output occurred because of the fact that cd stands for change directory, however, since there was no argument, there was no directory to change to. Thus, the code essentially did nothing.
+**Explanation:** The following output occurred because of the fact that cd stands for change directory, however, since there was no argument, there was no directory to change to. Thus, the code essentially did nothing.
 <br/>
 
