@@ -2,7 +2,9 @@
 
 ## cd Command
 <br/>
-Input/Output:
+NO ARGUMENTS
+<br/>
+**Input/Output:**
 <br/>
 
 ```
@@ -14,4 +16,7 @@ Input/Output:
  <br/>
 **Explanation:** The following output occurred because of the fact that cd stands for change directory, however, since there was no argument, there was no directory to change to. Thus, the code essentially did nothing.
 <br/>
+This output is NOT an error
+<br/>
+
 
