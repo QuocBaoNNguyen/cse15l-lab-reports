@@ -4,7 +4,7 @@
 <br/>
 NO ARGUMENTS
 <br/>
-**Input/Output:**
+**Input/Output**
 <br/>
 
 ```
