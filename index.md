@@ -1,11 +1,14 @@
-Greetings World .-.
-*This should be italic!*
-**This should be bolded**
-'''
+Greetings World .-.<br/>
+*This should be italic!*<br/>
+**This should be bolded**<br/>
+
+```
 My Code Block
 I chose 3 backticks at front and end
-'''
-[Link](https://drive.google.com)
-![Image](cow.jpg)
+```
+
+
+[Link](https://drive.google.com)<br/>
+![Image](cow.jpg)<br/>
 Horizontal Rule:
----
+---<br/>
