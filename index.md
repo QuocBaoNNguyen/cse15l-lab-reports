@@ -12,4 +12,4 @@ I chose 3 backticks at front and end
 ![Image](cow.jpg)<br/>
 Horizontal Rule:
 
---- <br/>
+*** <br/>
