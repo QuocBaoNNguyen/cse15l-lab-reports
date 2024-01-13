@@ -148,6 +148,7 @@ cat: lecture1: Is a directory
 <br/>
 This is an error because Java cannot concatenate a directory. It needs the argument to be a file, something that is actually concatenatable.
 <br/>
+
 ***
 
 FILE AS ARGUMENT
