@@ -33,7 +33,7 @@ DIRECTORY AS ARGUMENT
 **Working Directory:** `home`
 <br/>
 <br/>
-**Explanation:** This time, there was a directory provided. As a result, Java took us to the given directory with the `cd` command. This can be seen as the resulting line in ther terminal has `/lecture1` inbetween the brackets to indicate to us that we are now working in the directory of lecture1.
+**Explanation:** This time, there was a directory provided. As a result, Java took us to the given directory with the `cd` command. This can be seen as the resulting line in ther terminal has `/lecture1` inbetween the brackets to indicate to us that we are now working in the directory of `lecture1`.
 <br/>
 <br/>
 This output is NOT an error
@@ -51,7 +51,7 @@ bash: cd: Hello.class: Not a directory
 **Working Directory:** `lecture1`
 <br/>
 <br/>
-**Explanation:** With a file as the argument, Java indicates to us that it is specifically only wants directories as arguments and nothing else when using the `cd` command. Since we gave it a file, it rejected the command and stated that "Hello.class: Not a directory".
+**Explanation:** With a file as the argument, Java indicates to us that it is specifically only wants directories as arguments and nothing else when using the `cd` command. Since we gave it a file, it rejected the command and stated that `Hello.class: Not a directory`.
 <br/>
 <br/>
 This out is an error because we did not provide the `cd` command with the correct form of argument; directories.
@@ -142,7 +142,7 @@ cat: lecture1: Is a directory
 **Working Directory:** `home`
 <br/>
 <br/>
-**Explanation:** In the result, Java tells us that `cat` is a directory. It tells us this because it expects an argument that is a file, not a directory. As a result, the cat command doesn't run as it was intended to and simply says "cat: lecture1: Is a directory".
+**Explanation:** In the result, Java tells us that `cat` is a directory. It tells us this because it expects an argument that is a file, not a directory. As a result, the cat command doesn't run as it was intended to and simply says `cat: lecture1: Is a directory`.
 
 <br/>
 <br/>
