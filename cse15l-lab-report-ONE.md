@@ -142,7 +142,7 @@ cat: lecture1: Is a directory
 **Working Directory:** `home`
 <br/>
 <br/>
-**Explanation:** In the result, Java tells us that `cat` is a directory. It tells us this because it expects an argument that is a file, not a directory. As a result, the cat command doesn't run as it was intended to and simply says `cat: lecture1: Is a directory`.
+**Explanation:** In the result, Java tells us that `cat` is a directory. It tells us this because it expects an argument that is a file, not a directory. As a result, the cat command doesn't run as it was intended to and simply says `cat: lecture1: Is a directory`. This is due to the fact that your cannot concatenate a folder; it is a path.
 
 <br/>
 <br/>
@@ -165,7 +165,7 @@ java Hello messages/en-us.txt
 **Working Directory:** `lecture1`
 <br/>
 <br/>
-**Explanation:** This is a more appropiate use of the command. Here we are in the `lecture1` directory because there are actaully files here for us to access. After running the command, Java concatenates whats in the file of the argument, which in this case is `README`.
+**Explanation:** This is a more appropiate use of the command. Here we are in the `lecture1` directory because there are actually files here for us to access. After running the command, Java concatenates whats in the file of the argument, which in this case is `README`(it provided the first line of the file).
 <br/>
 <br/>
 This is NOT an error
