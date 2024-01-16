@@ -87,7 +87,7 @@ Hello.class  Hello.java  messages  README
 **Working Directory:** `home`
 <br/>
 <br/>
-**Explanation:** Now that we have provided the `ls` command with a directory, it can now take that given directory and return us all the files and folders in it. In this case, it gave us all the files/folders in the `lecture1` directory. 
+**Explanation:** Now that we have provided the `ls` command with a directory, it can now take that given directory and return us all the files and folders in it. In this case, it gave us all the files/folders in the `lecture1` directory. This is how the ls command was intended to be utilized.
 <br/>
 <br/>
 This is NOT an error
