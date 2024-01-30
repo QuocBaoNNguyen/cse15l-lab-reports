@@ -58,7 +58,7 @@ class ChatServer {
 Screenshot 1:
 <br/>
 ![Image]
-(https://paste.pics/f45cc4244470fd51d6d798ec8fa89703)
+(https://i2.paste.pics/f45cc4244470fd51d6d798ec8fa89703.png?rand=fzcuqmWZLD)
 
 
 
