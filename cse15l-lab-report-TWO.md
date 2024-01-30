@@ -1,6 +1,6 @@
 # CSE 15L Lab Report 2
 ## Part 1
-** Code for ChatServer: **
+**Code for ChatServer:**
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -55,6 +55,9 @@ class ChatServer {
     }
 }
 ```
+Screenshot 1:
+/n
+....
 
 
 
