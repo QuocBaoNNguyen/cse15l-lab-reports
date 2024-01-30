@@ -59,12 +59,13 @@ class ChatServer {
 <br/>
 ![Image](cs15l-labreport2-ss1.png)
 <br/>
-From this screenshot there are methods, arguments, and values are being used in my code. The method that was called was my `handleRequest` method. The relevant argument was `URI url` and from this, there are fields such as `name` and `message`. From this specific request, the `name` field was changed from `null` to `Tony` and the `message` field was changed from `null` to `Greetings Monkey!`
+From this screenshot there are methods, arguments, and values are being used in my code. The method that was called was my `handleRequest` method. The relevant argument was `URI url` and from this, there are fields such as `name` and `message`. `name` and `message` are derived from the `curr` field which splitted the given argument, which helped assign values to the respective fields. From this specific request, the `name` field was changed from `null` to `Tony` and the `message` field was changed from `null` to `Greetings Monkey!`
+<br/>
 <br/>
 **Screenshot 2:**
 <br/>
 ![Image](cs15l-labreport2-ss2.png)
-From this...
+From this screenshot, the method `handleRequest` is called as it takes in the argument `URI url` and changes the fields `name` and `messages` to `Monkey` and `OO OO AHHH AHH`, respectively. Using `name` and `message`, it creates `TheMessages` which is then added to `entireChat`. Lastly, `finalChat` takes in everything from `entireChat` and return the entire conversation.
 
 
 
