@@ -12,10 +12,10 @@ NO ARGUMENTS
 [user@sahara ~]$ 
 ```
 
-**Working Directory:** `home`
+**Working Directory:** `/home`
  <br/>
  <br/>
-**Explanation:** The following output occurred because of the fact that `cd` stands for change directory, however, since there was no argument, there was no directory to change to. Thus, the code essentially did nothing as it had no directory to take us to.
+**Explanation:** The following output occurred because of the fact that `cd` stands for change directory, however, since there was no argument, the command changed the directory to the home directory. This is true because when I change the directory to `/lecture1` and use the `cd` command with no argument, the directory is changed to the home directory.
 <br/>
 <br/>
 This output is NOT an error
