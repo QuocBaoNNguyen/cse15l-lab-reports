@@ -99,13 +99,13 @@ FILE AS ARGUMENT
 ### Input/Output
 
 ```
-[user@sahara ~]$ ls Hello.java
-ls: cannot access 'Hello.java': No such file or directory
+[user@sahara ~]$ ls lecture1/Hello.java
+lecture1/Hello.java
 ```
 **Working Directory:** `/home`
 <br/>
 <br/>
-**Explanation:** In the command, we are trying to get Java to list out all the files and folders in `Hello.java`. However, we get the result that it cannot acces `Hello.java`. This is because there are not files or directories inside this file. As a result, we get an error from providing a file instead of a path.
+**Explanation:** In the input/output, it gives us the path to `Hello.java`. This is different from the output of having a directory as an input because that would list out all the directories/files in that said directory. However, this is not the case when having a file as the argument, it gives the file's path, or atleast the file's name.
 <br/>
 <br/>
 This is an error because `Hello.java` is a file, not a directory/path for Java to list whats inside of it. Notice how when we used a directory as an arguement it went well. This is because it was a folder with many more files/folders in it. With the files, this is not the case and there is nothing else to open.
