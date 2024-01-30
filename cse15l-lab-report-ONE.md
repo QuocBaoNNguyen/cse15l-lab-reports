@@ -108,7 +108,7 @@ lecture1/Hello.java
 **Explanation:** In the input/output, it gives us the path to `Hello.java`. This is different from the output of having a directory as an input because that would list out all the directories/files in that said directory. However, this is not the case when having a file as the argument, it gives the file's path, or atleast the file's name.
 <br/>
 <br/>
-This is an error because `Hello.java` is a file, not a directory/path for Java to list whats inside of it. Notice how when we used a directory as an arguement it went well. This is because it was a folder with many more files/folders in it. With the files, this is not the case and there is nothing else to open.
+This is NOT an error.
 <br/>
 ***
 
@@ -124,7 +124,7 @@ NO ARGUMENT
 **Working Directory:** `/home`
 <br/>
 <br/>
-**Explanation:** As we can see, the output gives us nothing. This is because with no argument, we give Java nothing to concatenate. As a result, it returns blank.
+**Explanation:** As we can see, the output gives us nothing. This is because with no argument, we give Java nothing to concatenate. As a result, it returns blank. However, even though it returns nothing, if it is still running and you type something, and press enter again, it will return what you typed. This is something I noticed.
 <br/>
 <br/>
 This is an error because Java was expecting an argument of a file to concatenate, however, it got nothing so it did not perform the command as it wanted to.
