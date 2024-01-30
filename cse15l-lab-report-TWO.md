@@ -57,7 +57,7 @@ class ChatServer {
 ```
 Screenshot 1:
 <br/>
-![Image](cs15l-labreport-ss1.png)
+![Image](cs15l-labreport2-ss1.png)
 
 
 
