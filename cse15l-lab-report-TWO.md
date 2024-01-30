@@ -56,8 +56,10 @@ class ChatServer {
 }
 ```
 Screenshot 1:
-/n
-....
+<br/>
+![Image]
+(https://paste.pics/f45cc4244470fd51d6d798ec8fa89703)
+
 
 
 
