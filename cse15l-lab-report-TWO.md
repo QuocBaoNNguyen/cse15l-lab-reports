@@ -66,6 +66,15 @@ From this screenshot there are methods, arguments, and values are being used in 
 <br/>
 ![Image](cs15l-labreport2-ss2.png)
 From this screenshot, the method `handleRequest` is called as it takes in the argument `URI url` and changes the fields `name` and `messages` to `Monkey` and `OO OO AHHH AHH`, respectively. Using `name` and `message`, it creates `TheMessages` which is then added to `entireChat`. Lastly, `finalChat` takes in everything from `entireChat` and return the entire conversation.
+<br/>
+## Part 2
+![Image](cs15l-labreport2-ss3.png)
+<br/>
+image 2 soon
+<br/>
+![Image](cs15l-labreport2-ss5.png)
+
+
 
 
 
