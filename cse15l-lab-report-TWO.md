@@ -65,6 +65,7 @@ From this screenshot there are methods, arguments, and values are being used in 
 **Screenshot 2:**
 <br/>
 ![Image](cs15l-labreport2-ss2.png)
+<br/>
 From this screenshot, the method `handleRequest` is called as it takes in the argument `URI url` and changes the fields `name` and `messages` to `Monkey` and `OO OO AHHH AHH`, respectively. Using `name` and `message`, it creates `TheMessages` which is then added to `entireChat`. Lastly, `finalChat` takes in everything from `entireChat` and return the entire conversation.
 <br/>
 ## Part 2
