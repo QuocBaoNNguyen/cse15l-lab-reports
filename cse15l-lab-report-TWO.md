@@ -80,6 +80,9 @@ From this screenshot, the method `handleRequest` is called as it takes in the ar
 **Screenshot of logging into `ieng6` account without password**
 <br/>
 ![Image](cs15l-labreport2-ss5.png)
+<br/>
+## Part 3
+Overall, I learned a couple of things from this lab. For starters, I learned the idea behind local files vs. files on servers. This is because I tried doing part one through `ieng6` but that only gave me more trouble. Next, I also learned about starting servers and how to play around with the URL. Overall, it was an eye-opening experience see code extend beyond the terminal and into the URL.
 
 
 
