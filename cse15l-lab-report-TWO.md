@@ -75,7 +75,7 @@ From this screenshot, the method `handleRequest` is called as it takes in the ar
 <br/>
 **Screenshot of absolute path to public key**
 <br/>
-
+![Image](cs15l-labreport2-ss4.png)
 <br/>
 **Screenshot of logging into `ieng6` account without password**
 <br/>
