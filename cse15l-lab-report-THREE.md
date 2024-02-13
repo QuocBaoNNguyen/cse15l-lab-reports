@@ -25,7 +25,7 @@ Non-Failure Inducing Input:
 Symptom: The method will only return an array full of zeros the size of the inputted array.
 <br/>
 
-![Image](image(1).png)
+![Image](cse15l-labreport3-ss1.png)
 
 <br/>
 
