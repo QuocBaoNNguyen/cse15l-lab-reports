@@ -25,7 +25,7 @@ Non-Failure Inducing Input:
 Symptom: The method will only return an array full of zeros the size of the inputted array.
 <br/>
 
-![Image](image (1).png)
+![Image](image(1).png)
 
 <br/>
 
@@ -60,6 +60,16 @@ static int[] reversed(int[] arr) {
     return newArray;
 }
 ```
+
+<br/>
+
+This slight, yet, important change fixed the code because of 2 things. First, the for loop no longer directly changes the `arr` array (our inputted array). Instead, it changes out dummy array, `newArray` as it should. Second, it returns `newArray` instead of `arr`.
+
+<br/>
+
+# Part 2- Research on `grep`
+
+1. grep -i
 
 
 
