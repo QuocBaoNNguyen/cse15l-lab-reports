@@ -1,6 +1,6 @@
 # Lab Report 3- Bugs and Commands
 ## Part 1- Bug with `reversed` method
-- Failure Inducing Input:
+Failure Inducing Input:
 <br/>
 ```
 @Test
@@ -10,7 +10,7 @@
   }
 ```
 <br/>
-- Non-Failure Inducing Input:
+Non-Failure Inducing Input:
 <br/>
 ```
 @Test
@@ -20,6 +20,6 @@
   }
 ```
 <br/>
--Symptom:
+Symptom:
 <br/>
 
