@@ -69,7 +69,57 @@ This slight, yet, important change fixed the code because of 2 things. First, th
 
 # Part 2- Research on `grep`
 
-1. grep -i
+1. `grep -i `
+
+<br/>
+
+1a.
+
+<br/>
+```
+tonyn@BOOK-PHHA2EB9PA MINGW64 ~/Downloads/docsearch-main/technical/911report
+$ grep -i "Gerard" *.txt
+chapter-1.txt:    At 9:00, American Airlines Executive Vice President Gerard Arpey learned that communications had been lost with American 77. This was now the second American aircraft in trouble. He ordered all American Airlines flights in the Northeast that had not taken off to remain on the ground. Shortly before 9:10, suspecting that American 77 had been hijacked, American headquarters concluded that the second aircraft to hit the World Trade Center might have been Flight 77. After learning that United Airlines was missing a plane, American Airlines headquarters extended the ground stop nationwide.
+chapter-13.2.txt:            55. Gerard Arpey interview (Jan. 8, 2004); Larry Wansley interview (Jan. 8, 2004);
+
+```
+<br/>
+
+This command searches all the .txt files in the `/Downloads/docsearch-main/technical/911report` directory for "Gerard" and returns the line that has it. But more specifically, the "-i" part of the command makes it so that it ignores cases. Thus, if I were to use "GERARD" or "gerard" or "geRarD" I would still get the same result. I do this example in the next one. This is helpful if your looking for a certain word and don't care about the capitalization it has in the file.
+
+<br/>
+
+1b.
+
+<br/>
+
+```
+tonyn@BOOK-PHHA2EB9PA MINGW64 ~/Downloads/docsearch-main/technical/911report
+$ grep -i "GERARD" *.txt
+chapter-1.txt:    At 9:00, American Airlines Executive Vice President Gerard Arpey learned that communications had been lost with American 77. This was now the second American aircraft in trouble. He ordered all American Airlines flights in the Northeast that had not taken off to remain on the ground. Shortly before 9:10, suspecting that American 77 had been hijacked, American headquarters concluded that the second aircraft to hit the World Trade Center might have been Flight 77. After learning that United Airlines was missing a plane, American Airlines headquarters extended the ground stop nationwide.
+chapter-13.2.txt:            55. Gerard Arpey interview (Jan. 8, 2004); Larry Wansley interview (Jan. 8, 2004);
+
+```
+
+<br/>
+
+This does exactly the same as described in 1a. The only difference is that I used "GERARD" instead of "Gerard". Notice how it still provides me the same lines like I claimed. This is helpful if I know I'm looking for the name "Gerard" but I'm not too sure on the capitalization of the name. 
+
+<br/>
+
+2. `grep -n`
+
+<br/>
+
+2a.
+
+ 
+
+
+
+
+
+
 
 
 
