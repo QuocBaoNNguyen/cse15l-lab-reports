@@ -22,6 +22,44 @@ Non-Failure Inducing Input:
 ```
 
 <br/>
-Symptom:
+Symptom: The method will only return an array full of zeros the size of the inputted array.
 <br/>
+
+![Image](image (1).png)
+
+<br/>
+
+The Bug: The issue with the method is that it directly changes the inputted array instead of working on a dummy array.
+
+<br/>
+Before:
+<br/>
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for (int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+<br/>
+
+After:
+
+<br/>
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for (int i = 0; i < arr.length; i++) {
+        newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+}
+```
+
+
 
