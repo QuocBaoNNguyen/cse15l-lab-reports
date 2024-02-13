@@ -153,9 +153,90 @@ This is another example of the `grep -n` command in use but it only searches thr
 
 <br/>
 
-...
+```
+tonyn@BOOK-PHHA2EB9PA MINGW64 ~/Downloads/docsearch-main/technical/911report
+$ grep -c "Gerard" *.txt
+chapter-1.txt:1
+chapter-10.txt:0
+chapter-11.txt:0
+chapter-12.txt:0
+chapter-13.1.txt:0
+chapter-13.2.txt:1
+chapter-13.3.txt:0
+chapter-13.4.txt:0
+chapter-13.5.txt:0
+chapter-2.txt:0
+chapter-3.txt:0
+chapter-5.txt:0
+chapter-6.txt:0
+chapter-7.txt:0
+chapter-8.txt:0
+chapter-9.txt:0
+preface.txt:0
+```
 
 <br/>
+
+This is an example of the `grep -c` command on the directory `/Downloads/docsearch-main/technical/911report` where it returns how many lines has "Gerard" in each file in the working directory. This is useful if I wanted to know which files contained information about Gerard and how many lines to expect in each file.
+
+<br/>
+
+3b. Use on File
+
+<br/>
+
+```
+tonyn@BOOK-PHHA2EB9PA MINGW64 ~/Downloads/docsearch-main/technical/911report
+$ grep -c "Gerard" chapter-1.txt
+1
+```
+
+<br/>
+
+This example of `grep -c` shows it being used on a specfic file, `chapter-1.txt` in this case. Returns the number count of lines that contains "Gerard". This is useful if I only want to know the count for a certain file.
+
+<br/>
+
+4. `grep -e`
+
+<br/>
+
+4a. Use on Directory
+
+<br/>
+
+```
+tonyn@BOOK-PHHA2EB9PA MINGW64 ~/Downloads/docsearch-main/technical/911report
+$ grep -e "At 8:59" -e "At 9:21" *.txt
+chapter-1.txt:    At 8:59, Flight 175 passenger Brian David Sweeney tried to call his wife, Julie. He left a message on their home answering machine that the plane had been hijacked. He then called his mother, Louise Sweeney, told her the flight had been hijacked, and added that the passengers were thinking about storming the cockpit to take control of the plane away from the hijackers.
+chapter-1.txt:    The Command Center kept looking for American 77. At 9:21, it advised the Dulles terminal control facility, and Dulles urged its controllers to look for primary targets. At 9:32, they found one. Several of the Dulles controllers "observed a primary radar target tracking eastbound at a high rate of speed" and notified Reagan National Airport. FAA personnel at both Reagan National and Dulles airports notified the Secret Service. The aircraft's identity or type was unknown.
+chapter-1.txt:    At 9:21, NEADS received a report from the FAA: FAA: Military, Boston Center. I just had a report that American 11 is still in the air, and it's on its way towards-heading towards Washington. NEADS: Okay. American 11 is still in the air?
+chapter-9.txt:            At 8:59, the Port Authority police desk at Newark Airport told a third party that a
+```
+
+<br/>
+
+This is an example of the `grep -e` command on the `/Downloads/docsearch-main/technical/911report` directory. The command searches for multiple patterns, in this case, "At 8:59" and "At 9:21", and returns its file location and the line(s) that contains the pattern. This is useful if I wanted to search for more than one pattern so then I don't have to run the command multiple times.
+
+4b. Use on File
+
+<br/>
+
+```
+tonyn@BOOK-PHHA2EB9PA MINGW64 ~/Downloads/docsearch-main/technical/911report
+$ grep -e "At 8:59" -e "At 9:21" chapter-9.txt
+            At 8:59, the Port Authority police desk at Newark Airport told a third party that a
+```
+
+<br/>
+
+This is an example of the `grep -e` command on the `chapter-9.txt` file, where it returns lines that contain "At 8:59" and "At 9:21" from the file. This is useful if I wanted to search multiple for multiple patterns ina specific file.
+
+<br/>
+
+
+
+
 
 
 
