@@ -236,7 +236,7 @@ This is an example of the `grep -e` command on the `chapter-9.txt` file, where i
 
 # Citations:
 
-[Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+[Grep Commands From Geeks For Geeks](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 
 
