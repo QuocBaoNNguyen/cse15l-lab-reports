@@ -12,6 +12,7 @@ Failure Inducing Input:
 <br/>
 Non-Failure Inducing Input:
 <br/>
+
 ```
 @Test
   public void testReversed2() {
@@ -19,6 +20,7 @@ Non-Failure Inducing Input:
     assertArrayEquals(new int[] { 0, 0, 0, 0 }, ArrayExamples.reversed(input1));
   }
 ```
+
 <br/>
 Symptom:
 <br/>
