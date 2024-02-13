@@ -230,9 +230,13 @@ $ grep -e "At 8:59" -e "At 9:21" chapter-9.txt
 
 <br/>
 
-This is an example of the `grep -e` command on the `chapter-9.txt` file, where it returns lines that contain "At 8:59" and "At 9:21" from the file. This is useful if I wanted to search multiple for multiple patterns ina specific file.
+This is an example of the `grep -e` command on the `chapter-9.txt` file, where it returns lines that contain "At 8:59" and "At 9:21" from the file. This is useful if I wanted to search multiple for multiple patterns in a specific file.
 
 <br/>
+
+# Citations:
+
+[Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 
 
