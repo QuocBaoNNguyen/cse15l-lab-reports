@@ -69,7 +69,7 @@ This slight, yet, important change fixed the code because of 2 things. First, th
 
 # Part 2- Research on `grep`
 
-1. `grep -i `
+`grep -i `
 
 <br/>
 
@@ -107,7 +107,7 @@ This command searches the `chapter-1.txt` file only for "GERARD" while still ign
 
 <br/>
 
-2. `grep -n`
+`grep -n`
 
 <br/>
 
@@ -145,7 +145,7 @@ This is another example of the `grep -n` command in use but it only searches thr
 
 <br>
 
-3. `grep -c`
+`grep -c`
 
 <br/>
 
@@ -197,7 +197,7 @@ This example of `grep -c` shows it being used on a specfic file, `chapter-1.txt`
 
 <br/>
 
-4. `grep -e`
+`grep -e`
 
 <br/>
 
