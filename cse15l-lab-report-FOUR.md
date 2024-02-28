@@ -112,6 +112,9 @@ By typing out `cd lab7`, `<enter>`, I changed my working directory to `lab7`. Wi
 <br>
 
 **Summary**
+
+<br/>
+
 I used `vim ListExamples.java`, `<enter>` to open `ListExamples.java` in `vim`. Then, the 43 `down`s and 12 `right`s are to place my cursor at the desired position at where I want to make my changes. The `i` `backspace` `2` `esc` are to switch into "insert mode" in `vim`, delete the `1` and replace it with a `2` and `esc` is to exit out of "insert mode". Lastly, `:wq` `<enter>` saves the changes and quits `vim`.
 
 <br/>
@@ -146,6 +149,40 @@ I used `vim ListExamples.java`, `<enter>` to open `ListExamples.java` in `vim`. 
 With `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar ListExamplesTests.java`, `<enter>`, I recompiled the `ListExamplesTests` file. Then, `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore ListExamplesTests`, `<enter>`, ran the file `ListExamplesTests.java` and gave me the results of the test.
 
 <br/>
+
+## Step 9
+**Screenshot**
+
+<br/>
+
+![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/f63d0302-1800-4b75-93a0-19b1306c9ebc)
+
+<br/>
+
+**Keys Pressed**
+
+<br/>
+
+`git add .`, `<enter>`
+
+<br/>
+
+`git commit -m "ListExamples Fixed"`, `<enter>`
+
+<br/>
+
+`git push`, `<enter>`
+
+<br/>
+
+**Summary**
+
+<br/>
+
+This, `git add .`, `<enter>`, stages all changes in the working directory and also it's subdirectories (because of the `.`) for the next commit. What is staging? Staging means to mark the files and all changes within them as ready to be included in the next commit. Then, `git commit -m "ListExamples Fixed"`, `<enter>`, commits the staged changes(from the previous command) to the local repository. Notice the `-m`, this allows for a commit message to be included! Lastly, is the `git push`, `<enter>`. This command pushes the committed changes from the local repository to a remote repository.
+
+
+
 
 
 
