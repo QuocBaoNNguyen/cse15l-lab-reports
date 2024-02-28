@@ -87,6 +87,11 @@ By typing out `cd lab7`, `<enter>`, I changed my working directory to `lab7`. Wi
 **Screenshot**
 <br/>
 
+![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/6f043cd9-9307-4428-8758-7a6baf14c0f0)
+
+<br/>
+
+
 ![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/66dba0f9-1b4b-4750-b493-e905fae3ec7f)
 
 <br/>
