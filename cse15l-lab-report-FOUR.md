@@ -54,7 +54,8 @@ After setting up the SSH key in my GitHub account, I typed out
 ## Step 6
 **Screenshot**
 <br/>
-![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/18fc06a2-3181-4be0-bbee-352463018016)
+![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/8317f078-2700-4c7f-b81f-b619b9d87a9e)
+
 
 <br/>
 
@@ -66,11 +67,11 @@ After setting up the SSH key in my GitHub account, I typed out
 
 <br/>
 
-`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, `<enter>`
+`javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar ListExamplesTests.java`, `<enter>`
 
 <br/>
 
-`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java`, `<enter>`
+`java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore ListExamplesTests`, `<enter>`
 
 <br/>
 
@@ -78,7 +79,7 @@ After setting up the SSH key in my GitHub account, I typed out
 
 <br/>
 
-By typing out `cd lab7`, `<enter>`, I changed my working directory to `lab7`. With `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, `<enter>`, I compiled all the `.java` files in the directory. Lastly, `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java`, `<enter>`, ran the file `ListExamplesTests.java` and gave me the results of the test.
+By typing out `cd lab7`, `<enter>`, I changed my working directory to `lab7`. With `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar ListExamplesTests.java`, `<enter>`, I compiled the `ListExamplesTests` file. Lastly, `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore ListExamplesTests`, `<enter>`, ran the file `ListExamplesTests.java` and gave me the results of the test.
 
 <br/>
 
@@ -120,6 +121,32 @@ I used `vim ListExamples.java`, `<enter>` to open `ListExamples.java` in `vim`. 
 **Screenshot**
 
 <br/>
+
+![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/4bc9b3dc-77fa-4671-8b6b-8e3b06a96c17)
+
+
+<br/>
+
+ **Keys Pressed**
+
+<br/>
+
+`javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar ListExamplesTests.java`, `<enter>`
+
+<br/>
+
+`java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore ListExamplesTests`, `<enter>`
+
+<br/>
+
+**Summary**
+
+<br/>
+
+With `javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar ListExamplesTests.java`, `<enter>`, I recompiled the `ListExamplesTests` file. Then, `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore ListExamplesTests`, `<enter>`, ran the file `ListExamplesTests.java` and gave me the results of the test.
+
+<br/>
+
 
 
 
