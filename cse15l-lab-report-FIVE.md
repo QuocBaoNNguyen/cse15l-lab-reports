@@ -9,7 +9,7 @@ Hello! I've been stuck on this Java program for a while now and was wondering if
 
 <br/>
 
-![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/9cd9488e-4cba-4831-b107-01b4dc48bfdf)
+![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/c1c337c2-b68e-42f9-b61a-c5192115baa8)
 
 <br/>
 
@@ -29,8 +29,7 @@ Thank you for the advice! After some work, I added null checks to my code and fo
 
 <br/>
 
-![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/7a892245-c4fb-45d1-b6b4-07a1a05c4856)
-
+![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/e41ca888-7f6b-4749-93f0-8b4c57f061cc)
 
 <br/>
 
@@ -43,14 +42,9 @@ File and Directory Structure:
 
 
 UserProfile.java- Defines the `UserProfile` class and initiates the name and email properties
-
-
-
 ProcessProfiles.java- Program that processes and prints the user profile data(name and email)
-
-
-
-Both are in the `/home` directory
+run.sh- Bash script that will compile and run the `ProcessProfiles.java` program
+All are in the `/home` directory
 
 <br/>
 
