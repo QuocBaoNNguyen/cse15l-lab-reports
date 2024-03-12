@@ -40,7 +40,7 @@ Thank you for the advice! After some work, I added null checks to my code and fo
 
 File and Directory Structure:
 
-<br/>
+
 
 UserProfile.java- Defines the `UserProfile` class and initiates the name and email properties
 
