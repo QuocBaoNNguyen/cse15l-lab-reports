@@ -67,11 +67,11 @@ After setting up the SSH key in my GitHub account, I typed out
 
 <br/>
 
-`javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar ListExamplesTests.java`, `<enter>`
+`<Ctrl+V>`, `<enter>`
 
 <br/>
 
-`java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore ListExamplesTests`, `<enter>`
+`<Ctrl+V`, `<enter>`
 
 <br/>
 
