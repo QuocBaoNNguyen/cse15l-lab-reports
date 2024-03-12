@@ -104,11 +104,11 @@ By typing out `cd lab7`, `<enter>`, I changed my working directory to `lab7`. Wi
 
 <br/>
 
-`down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `down` `right` `right` `right` `right` `right` `right` `right` `right` `right` `right` `right` `right` `right` 
+`<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` `<right>` 
 
 <br/>
 
-`i` `backspace` `2` `esc`
+`i` `<backspace>` `2` `<esc>`
 
 <br/>
 
@@ -120,7 +120,7 @@ By typing out `cd lab7`, `<enter>`, I changed my working directory to `lab7`. Wi
 
 <br/>
 
-I used `vim ListExamples.java`, `<enter>` to open `ListExamples.java` in `vim`. Then, the 43 `down`s and 12 `right`s are to place my cursor at the desired position at where I want to make my changes. The `i` `backspace` `2` `esc` are to switch into "insert mode" in `vim`, delete the `1` and replace it with a `2` and `esc` is to exit out of "insert mode". Lastly, `:wq` `<enter>` saves the changes and quits `vim`.
+I used `vim ListExamples.java`, `<enter>` to open `ListExamples.java` in `vim`. Then, the 43 `<down>`s and 12 `<right>`s are to place my cursor at the desired position at where I want to make my changes. The `i` `backspace` `2` `esc` are to switch into "insert mode" in `vim`, delete the `1` and replace it with a `2` and `esc` is to exit out of "insert mode". Lastly, `:wq` `<enter>` saves the changes and quits `vim`.
 
 <br/>
 
