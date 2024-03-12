@@ -71,7 +71,7 @@ After setting up the SSH key in my GitHub account, I typed out
 
 <br/>
 
-`<Ctrl+V`, `<enter>`
+`<Ctrl+V>`, `<enter>`
 
 <br/>
 
