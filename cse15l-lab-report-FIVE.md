@@ -1,4 +1,153 @@
 # Lab Report 5 - Putting it All Together
 ## Part 1 - Debugging Scenario
 
-** Student Post **
+**Student Post:**
+
+<br/>
+
+Hello! I've been stuck on this Java program for a while now and was wondering if anyone had any insight/advice. The program is supposed to process user profiles from a list and print out the names and emails of the users. However, when I run the program, it throws a `NullPoinyerException`. For context, the program is supposed to iterate through an array of `UserProfile` objects and read/print user data. I'm pretty sure all the objects in `UserProfile` have a name and email. If one of the objects were missing a name and profile(null), would that be the cause of the error? Additionally, how would I fix my code so that this error doesn't occur again? Below is a screenshot of the error.
+
+<br/>
+
+![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/9cd9488e-4cba-4831-b107-01b4dc48bfdf)
+
+<br/>
+
+**TA Response**
+
+<br/>
+
+Hi! Generally, a `NullPointerException` would occur when you try to access a method or object that is null. It is very much a possibility that one of the profiles in `UserProfile` is null or that the object itself exists but the property you're trying to access is null. Maybe try double checking that all the elements in your `UserProfile` array and the properties of the elements are initialized correctly. An approach to fix your code would be to add a null check at the beginning of your code.
+
+<br/>
+
+**Student Response**
+
+<br/>
+
+Thank you for the advice! After some work, I added null checks to my code and found that the bug was that one of the `UserProfile` objects was actually null. I now understand the importance of checking for null objects/ methods!
+
+<br/>
+
+![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/d9b55293-c6fa-47c4-9fda-08497fa08cfa)
+
+<br/>
+
+**Setup Information**
+
+<br/>
+
+File and Directory Structure:
+
+<br/>
+
+UserProfile.java- Defines the `UserProfile` class and initiates the name and email properties
+
+<br/>
+
+ProcessProfiles.java- Program that processes and prints the user profile data(name and email)
+
+<br/>
+
+Both are in the `/home` directory
+
+<br/>
+
+**Contents of `UserProfile.java` Before:**
+
+<br/>
+
+```
+public class UserProfile {
+    private String name;
+    private String email;
+
+    public UserProfile(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+}
+```
+
+<br/>
+
+**Contents of `ProcessProfiles.java` Before:**
+
+<br/>
+
+```
+public class ProcessProfiles {
+    public static void main(String[] args) {
+        UserProfile[] userProfiles = new UserProfile[3];
+        userProfiles[0] = new UserProfile("John Doe", "john@example.com");
+        userProfiles[1] = null; // This causes the NullPointerException
+        userProfiles[2] = new UserProfile("Jane Smith", "jane@example.com");
+
+        for (UserProfile user : userProfiles) {
+            System.out.println(user.getName() + " - " + user.getEmail()); // Error occurs here
+        }
+    }
+}
+```
+
+<br/>
+
+**Full Bug Triggering Command Line:**
+
+<br/>
+
+```
+javac ProcessProfiles.java
+java ProcessProfiles
+```
+
+<br/>
+
+**Description of Fixing Bug:**
+
+<br/>
+
+In order to fix the bug, make sure that each `UserProfile` object and the properties that are being accessed are not null before trying to access them. This can be done by adding a null check at the beginning of the code such as the one below.
+
+<br/>
+
+```
+for (UserProfile user : userProfiles) {
+    if (user != null && user.getName() != null && user.getEmail() != null) {
+        System.out.println(user.getName() + " - " + user.getEmail());
+    }
+}
+```
+
+<br/>
+
+## Part 2- Reflection
+
+<br/>
+
+reflection...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
