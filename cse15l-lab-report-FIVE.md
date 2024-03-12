@@ -17,7 +17,7 @@ Hello! I've been stuck on this Java program for a while now and was wondering if
 
 <br/>
 
-Hi! Generally, a `NullPointerException` would occur when you try to access a method or object that is null. It is very much a possibility that one of the profiles in `UserProfile` is null or that the object itself exists but the property you're trying to access is null. Maybe try double checking that all the elements in your `UserProfile` array and the properties of the elements are initialized correctly. An approach to fix your code would be to add a null check at the beginning of your code.
+Hi! Generally, a `NullPointerException` would occur when you try to access a method or object that is null. It is very much a possibility that one of the profiles in `UserProfile` is null or that the object itself exists but the property you're trying to access is null. Maybe try double checking that all the elements in your `UserProfile` array and the properties of the elements are initialized correctly. An approach to fix your code would be to add a null check at the beginning of your code so that it would let you know if anything object or property being accessed is null
 
 <br/>
 
@@ -29,7 +29,8 @@ Thank you for the advice! After some work, I added null checks to my code and fo
 
 <br/>
 
-![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/d9b55293-c6fa-47c4-9fda-08497fa08cfa)
+![image](https://github.com/QuocBaoNNguyen/cse15l-lab-reports/assets/156359008/7a892245-c4fb-45d1-b6b4-07a1a05c4856)
+
 
 <br/>
 
@@ -120,11 +121,19 @@ In order to fix the bug, make sure that each `UserProfile` object and the proper
 <br/>
 
 ```
-for (UserProfile user : userProfiles) {
-    if (user != null && user.getName() != null && user.getEmail() != null) {
-        System.out.println(user.getName() + " - " + user.getEmail());
-    }
-}
+for (UserProfile user : userProfiles){
+            if (user == null){
+                System.out.println("An object in the array is null!");
+                return;
+            }
+        }
+
+        for (UserProfile user : userProfiles){
+            if (user.getName() == null || user.getEmail() == null){
+                System.out.println("A property of an object of the array is null!");
+                return;
+            }
+        }
 ```
 
 <br/>
