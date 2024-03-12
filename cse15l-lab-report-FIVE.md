@@ -1,7 +1,7 @@
 # Lab Report 5 - Putting it All Together
 ## Part 1 - Debugging Scenario
 
-**Student Post:**
+**Student Post**
 
 <br/>
 
@@ -98,13 +98,22 @@ public class ProcessProfiles {
 
 <br/>
 
+**Contents of `run.sh` Before**
+
+<br/>
+
+```
+#!/bin/bash
+javac ProcessProfiles.java UserProfile.java
+java ProcessProfiles
+```
+
 **Full Bug Triggering Command Line:**
 
 <br/>
 
 ```
-javac ProcessProfiles.java
-java ProcessProfiles
+./run.sh
 ```
 
 <br/>
