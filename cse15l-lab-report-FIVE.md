@@ -42,8 +42,11 @@ File and Directory Structure:
 
 
 UserProfile.java- Defines the `UserProfile` class and initiates the name and email properties
+
 ProcessProfiles.java- Program that processes and prints the user profile data(name and email)
+
 run.sh- Bash script that will compile and run the `ProcessProfiles.java` program
+
 All are in the `/home` directory
 
 <br/>
