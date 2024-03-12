@@ -5,7 +5,7 @@
 
 <br/>
 
-Hello! I've been stuck on this Java program for a while now and was wondering if anyone had any insight/advice. The program is supposed to process user profiles from a list and print out the names and emails of the users. However, when I run the program, it throws a `NullPoinyerException`. For context, the program is supposed to iterate through an array of `UserProfile` objects and read/print user data. I'm pretty sure all the objects in `UserProfile` have a name and email. If one of the objects were missing a name and profile(null), would that be the cause of the error? Additionally, how would I fix my code so that this error doesn't occur again? Below is a screenshot of the error.
+Hello! I've been stuck on this Java program for a while now and was wondering if anyone had any insight/advice. The program is supposed to process user profiles from a list and print out the names and emails of the users. However, when I run the program, it throws a `NullPointerException`. For context, the program is supposed to iterate through an array of `UserProfile` objects and read/print user data. I'm pretty sure all the objects in `UserProfile` have a name and email. If one of the objects were missing a name and email or doesn't even exist, would that be the cause of the error? Additionally, how would I fix my code so that this error doesn't occur again? Below is a screenshot of the error.
 
 <br/>
 
