@@ -17,7 +17,7 @@ Hello! I've been stuck on this Java program for a while now and was wondering if
 
 <br/>
 
-Hi! Generally, a `NullPointerException` would occur when you try to access a method or object that is null. It is very much a possibility that one of the profiles in `UserProfile` is null or that the object itself exists but the property you're trying to access is null. Maybe try double checking that all the elements in your `UserProfile` array and the properties of the elements are initialized correctly. An approach to fix your code would be to add a null check at the beginning of your code so that it knows how to handle nulls would let you know if anything object or property being accessed is null.
+Hi! Generally, a `NullPointerException` would occur when you try to access a method or object that is null. It is very much a possibility that one of the profiles in `UserProfile` is null or that the object itself exists but the property you're trying to access is null. Maybe try double checking that all the elements in your `UserProfile` array and the properties of the elements are initialized correctly. An approach to fix your code would be to add a null check at the beginning of your code so that it knows how to handle nulls and would let you know if any object or property being accessed is null.
 
 <br/>
 
