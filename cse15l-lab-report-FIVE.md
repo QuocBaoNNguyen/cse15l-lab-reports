@@ -148,7 +148,7 @@ for (UserProfile user : userProfiles){
 
 <br/>
 
-reflection...
+Something that I learned from my lab experience in the second half of the quarter is related to vim. Vim having so many commands, it is easy to get lost in what it can and cannot do. However, the most unique thing that I learned from a tutor is that if you use the command `gi` in vim, it will bring you back to the last place where you were typing and goes into insert mode. I found this to be very interesting and made me realize that there are probably hundreds of even more interesting vim commands that I didn't even know existed!
 
 
 
